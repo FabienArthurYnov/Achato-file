@@ -5,6 +5,7 @@ export const env = {
     port: process.env.PORT,
     nodeEnv: process.env.NODE_ENV,
     authServiceToken: process.env.AUTH_SERVICE_TOKEN,
+    authServiceUrl: process.env.AUTH_SERVICE_URL,
     db: {
         host: process.env.DB_HOST,
         port: process.env.DB_PORT,
